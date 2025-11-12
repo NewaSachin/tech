@@ -14,7 +14,7 @@
 
   @keyframes typing {
     0% { width: 0ch; }
-    50% { width: 30ch; } /* Adjust the number of characters */
+    50% { width: 24ch; } /* Adjust the number of characters */
     100% { width: 0ch; }
   }
 
