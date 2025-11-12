@@ -304,7 +304,7 @@ const CreateProjectDialog = ({ isDialogOpen, setIsDialogOpen }) => {
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
       // Show toast
-      toast.success("Project created successfully!",{
+      toast.success("Project created successfully!", {
         duration: 3000,
       });
 
@@ -423,6 +423,18 @@ const CreateProjectDialog = ({ isDialogOpen, setIsDialogOpen }) => {
                 )}
               </select>
             </div>
+            <div className="col-span-2">
+              <label className="block text-sm mb-1">Email</label>
+              <input
+                type="email"
+                value={formData.email || ""}
+                onChange={(e) =>
+                  setFormData({ ...formData, email: e.target.value })
+                }
+                placeholder="Enter email"
+                className="w-full px-3 py-2 rounded dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 mt-1 text-zinc-900 dark:text-zinc-200 text-sm"
+              />
+            </div>
           </div>
 
           {/* Footer */}
@@ -450,7 +462,6 @@ const CreateProjectDialog = ({ isDialogOpen, setIsDialogOpen }) => {
         className="duration-1000"
       />{" "}
       d
- 
     </div>
   );
 };

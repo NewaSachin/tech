@@ -37,7 +37,6 @@ export const dummyUsers = [
 ];
 
 export const dummyWorkspaces = [
-  
   {
     id: "org_2",
     name: "Techart Trekkies",
@@ -79,8 +78,7 @@ export const dummyWorkspaces = [
         id: "1",
         name: "Project Orion",
         department: "Engineering",
-        description:
-          "Migrate the monolithic app infrastructure to Kubernetes for scalability.",
+        description: "Department: Engineering",
         priority: "HIGH",
         status: "ACTIVE",
         start_date: "2025-10-15T00:00:00.000Z",
@@ -147,8 +145,7 @@ export const dummyWorkspaces = [
       {
         id: 2,
         name: "Project Nebula",
-        description:
-          "Selenium + Playwright hybrid test framework for regression testing.",
+        description: "Department: Marketing",
         priority: "MEDIUM",
         status: "PLANNING",
         start_date: "2025-10-03T00:00:00.000Z",
@@ -163,7 +160,7 @@ export const dummyWorkspaces = [
           {
             id: "8836edf0-b4d7-4eec-a170-960d715a0b7f",
             projectId: "b190343f-a7b1-4a40-b483-ecc59835cba3",
-            title: "Migrate to Playwright 1.48",
+            title: "Set up CI/CD",
             description: "Update scripts to use latest Playwright features.",
             status: "IN_PROGRESS",
             type: "IMPROVEMENT",
@@ -175,37 +172,37 @@ export const dummyWorkspaces = [
             assignee: dummyUsers[0],
             comments: [],
           },
-          {
-            id: "ce3dc378-f959-42f4-b12b-4c6cae6195c9",
-            projectId: "b190343f-a7b1-4a40-b483-ecc59835cba3",
-            title: "Parallel Test Execution",
-            description: "Enable concurrent test runs across CI pipelines.",
-            status: "TODO",
-            type: "TASK",
-            priority: "MEDIUM",
-            assigneeId: "user_2",
-            due_date: "2025-11-28T00:00:00.000Z",
-            createdAt: "2025-10-13T09:09:55.827Z",
-            updatedAt: "2025-10-13T09:09:55.827Z",
-            assignee: dummyUsers[1],
-            comments: [],
-          },
-          {
-            id: "e01fda50-8818-4635-bcb6-9cde5c140b3d",
-            projectId: "b190343f-a7b1-4a40-b483-ecc59835cba3",
-            title: "Visual Snapshot Comparison",
-            description:
-              "Implement screenshot diffing for UI regression detection.",
-            status: "TODO",
-            type: "FEATURE",
-            priority: "LOW",
-            assigneeId: "user_1",
-            due_date: "2025-11-20T00:00:00.000Z",
-            createdAt: "2025-10-13T09:10:27.049Z",
-            updatedAt: "2025-10-13T09:10:27.049Z",
-            assignee: dummyUsers[0],
-            comments: [],
-          },
+          // {
+          //   id: "ce3dc378-f959-42f4-b12b-4c6cae6195c9",
+          //   projectId: "b190343f-a7b1-4a40-b483-ecc59835cba3",
+          //   title: "Parallel Test Execution",
+          //   description: "Enable concurrent test runs across CI pipelines.",
+          //   status: "TODO",
+          //   type: "TASK",
+          //   priority: "MEDIUM",
+          //   assigneeId: "user_2",
+          //   due_date: "2025-11-28T00:00:00.000Z",
+          //   createdAt: "2025-10-13T09:09:55.827Z",
+          //   updatedAt: "2025-10-13T09:09:55.827Z",
+          //   assignee: dummyUsers[1],
+          //   comments: [],
+          // },
+          // {
+          //   id: "e01fda50-8818-4635-bcb6-9cde5c140b3d",
+          //   projectId: "b190343f-a7b1-4a40-b483-ecc59835cba3",
+          //   title: "Visual Snapshot Comparison",
+          //   description:
+          //     "Implement screenshot diffing for UI regression detection.",
+          //   status: "TODO",
+          //   type: "FEATURE",
+          //   priority: "LOW",
+          //   assigneeId: "user_1",
+          //   due_date: "2025-11-20T00:00:00.000Z",
+          //   createdAt: "2025-10-13T09:10:27.049Z",
+          //   updatedAt: "2025-10-13T09:10:27.049Z",
+          //   assignee: dummyUsers[0],
+          //   comments: [],
+          // },
         ],
         members: [
           {
